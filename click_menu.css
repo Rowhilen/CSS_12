@@ -1,0 +1,98 @@
+.click{
+    justify-content: space-between;
+    text-align: center;
+}
+
+.click__menu1{
+    background-color: #7a45ab;
+    width: 28rem;
+    height: 45rem;
+    padding-top: 210px;
+    color: #FFFFFF;
+    margin-left: 5rem;   
+    border-radius: 3rem; 
+}
+
+.click__menu1:hover{
+    animation: moving 3s infinite;
+}
+
+.click__menu1 a{
+    text-decoration-line: none;
+    color: #FFFFFF;
+}
+
+.click__menu1 h4{
+    font-size: 50px;
+}
+
+.click__menu1 p{
+    font-size: 20px;
+}
+
+
+.click__menu2{
+    background-color: #7a45ab;
+    width: 28rem;
+    height: 45rem;
+    padding-top: 210px;
+    color: #FFFFFF;
+    margin-left: 5rem;   
+    border-radius: 3rem; 
+}
+
+.click__menu2 h4{
+    font-size: 50px;
+}
+
+.click__menu2 p{
+    font-size: 20px;
+}
+
+.click__menu2:hover{
+    animation: moving 3s infinite;
+}
+
+
+.click__menu3{
+    background-color: #7a45ab;
+    width: 28rem;
+    height: 45rem;
+    padding-top: 210px;
+    color: #FFFFFF;
+    margin-left: 5rem;  
+    margin-right: 5rem;  
+    border-radius: 3rem; 
+}
+
+.click__menu1, .click__menu2, .click__menu3{
+    margin-bottom: 5rem;
+}
+
+.click__menu3 h4{
+    font-size: 50px;
+}
+
+.click__menu3 p{
+    font-size: 20px;
+}
+
+.click__menu3:hover{
+    animation: moving 3s infinite;
+}
+
+@media screen and (max-width: 768px) {
+    .click{
+        display: block;
+    }
+
+    .click__menu1, .click__menu2, .click__menu3{
+        margin-bottom: 5rem;
+    }
+}
+
+@keyframes moving {
+    50%{
+        filter: blur(3px);
+    }
+}
